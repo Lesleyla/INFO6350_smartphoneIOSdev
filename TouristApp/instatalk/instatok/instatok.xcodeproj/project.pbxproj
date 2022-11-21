@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1803A9EF29284AAB0052DB5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A9EE29284AAB0052DB5D /* AppDelegate.swift */; };
+		1803A9F129284AAB0052DB5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803A9F029284AAB0052DB5D /* SceneDelegate.swift */; };
+		1803A9F829284AAB0052DB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1803A9F729284AAB0052DB5D /* Assets.xcassets */; };
+		1803A9FB29284AAB0052DB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1803A9F929284AAB0052DB5D /* LaunchScreen.storyboard */; };
+		1803AA0329284D760052DB5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1803AA0229284D760052DB5D /* GoogleService-Info.plist */; };
+		18D777A62928C80500A7428C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D777A52928C80500A7428C /* Main.storyboard */; };
+		18D777A92928CB0D00A7428C /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D777A82928CB0D00A7428C /* StringUtilities.swift */; };
+		18D777AB2928CEB500A7428C /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D777AA2928CEB500A7428C /* KeychainService.swift */; };
+		18D777AD2928D48200A7428C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D777AC2928D48200A7428C /* LoginViewController.swift */; };
+		18D777AF2928DC0900A7428C /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D777AE2928DC0900A7428C /* DashboardViewController.swift */; };
+		18D777B22928E17100A7428C /* AddaPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D777B12928E17100A7428C /* AddaPostViewController.swift */; };
+		4AB6B4C188BDE83AC576FA11 /* Pods_instatok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD915E8552FA7180A5DC06 /* Pods_instatok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1803A9EB29284AAA0052DB5D /* instatok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instatok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1803A9EE29284AAB0052DB5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1803A9F029284AAB0052DB5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1803A9F729284AAB0052DB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1803A9FA29284AAB0052DB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1803A9FC29284AAB0052DB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1803AA0229284D760052DB5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18D777A52928C80500A7428C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18D777A82928CB0D00A7428C /* StringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		18D777AA2928CEB500A7428C /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		18D777AC2928D48200A7428C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18D777AE2928DC0900A7428C /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		18D777B12928E17100A7428C /* AddaPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddaPostViewController.swift; sourceTree = "<group>"; };
+		9DDD915E8552FA7180A5DC06 /* Pods_instatok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instatok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6795FABEF85470A61BD2DD /* Pods-instatok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instatok.release.xcconfig"; path = "Target Support Files/Pods-instatok/Pods-instatok.release.xcconfig"; sourceTree = "<group>"; };
+		EDBBDF0641BFF1DC27F738DC /* Pods-instatok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instatok.debug.xcconfig"; path = "Target Support Files/Pods-instatok/Pods-instatok.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1803A9E829284AAA0052DB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB6B4C188BDE83AC576FA11 /* Pods_instatok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1803A9E229284AAA0052DB5D = {
+			isa = PBXGroup;
+			children = (
+				1803A9ED29284AAB0052DB5D /* instatok */,
+				1803A9EC29284AAA0052DB5D /* Products */,
+				83060545D6922EBD45B597FC /* Pods */,
+				94CEA0DFBB51065EB1E0B74B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1803A9EC29284AAA0052DB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1803A9EB29284AAA0052DB5D /* instatok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1803A9ED29284AAB0052DB5D /* instatok */ = {
+			isa = PBXGroup;
+			children = (
+				18D777B02928E14500A7428C /* AddaPost */,
+				18D777A72928CAE500A7428C /* Utilities */,
+				18D777A22928C15A00A7428C /* Dashboard */,
+				18421FEF29285920005BC45C /* Login */,
+				1803A9EE29284AAB0052DB5D /* AppDelegate.swift */,
+				1803A9F029284AAB0052DB5D /* SceneDelegate.swift */,
+				1803A9F729284AAB0052DB5D /* Assets.xcassets */,
+				1803A9F929284AAB0052DB5D /* LaunchScreen.storyboard */,
+				1803A9FC29284AAB0052DB5D /* Info.plist */,
+				1803AA0229284D760052DB5D /* GoogleService-Info.plist */,
+				18D777A52928C80500A7428C /* Main.storyboard */,
+			);
+			path = instatok;
+			sourceTree = "<group>";
+		};
+		18421FEF29285920005BC45C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18D777AC2928D48200A7428C /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18D777A22928C15A00A7428C /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				18D777AE2928DC0900A7428C /* DashboardViewController.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		18D777A72928CAE500A7428C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18D777A82928CB0D00A7428C /* StringUtilities.swift */,
+				18D777AA2928CEB500A7428C /* KeychainService.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		18D777B02928E14500A7428C /* AddaPost */ = {
+			isa = PBXGroup;
+			children = (
+				18D777B12928E17100A7428C /* AddaPostViewController.swift */,
+			);
+			name = AddaPost;
+			sourceTree = "<group>";
+		};
+		83060545D6922EBD45B597FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBDF0641BFF1DC27F738DC /* Pods-instatok.debug.xcconfig */,
+				BE6795FABEF85470A61BD2DD /* Pods-instatok.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94CEA0DFBB51065EB1E0B74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDD915E8552FA7180A5DC06 /* Pods_instatok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1803A9EA29284AAA0052DB5D /* instatok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1803A9FF29284AAB0052DB5D /* Build configuration list for PBXNativeTarget "instatok" */;
+			buildPhases = (
+				9C851D7EBEAD632DBA090000 /* [CP] Check Pods Manifest.lock */,
+				1803A9E729284AAA0052DB5D /* Sources */,
+				1803A9E829284AAA0052DB5D /* Frameworks */,
+				1803A9E929284AAA0052DB5D /* Resources */,
+				74E14AD220AE2C13162A2E23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instatok;
+			productName = instatok;
+			productReference = 1803A9EB29284AAA0052DB5D /* instatok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1803A9E329284AAA0052DB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1803A9EA29284AAA0052DB5D = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 1803A9E629284AAA0052DB5D /* Build configuration list for PBXProject "instatok" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1803A9E229284AAA0052DB5D;
+			productRefGroup = 1803A9EC29284AAA0052DB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1803A9EA29284AAA0052DB5D /* instatok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1803A9E929284AAA0052DB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D777A62928C80500A7428C /* Main.storyboard in Resources */,
+				1803A9FB29284AAB0052DB5D /* LaunchScreen.storyboard in Resources */,
+				1803AA0329284D760052DB5D /* GoogleService-Info.plist in Resources */,
+				1803A9F829284AAB0052DB5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74E14AD220AE2C13162A2E23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instatok/Pods-instatok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instatok/Pods-instatok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-instatok/Pods-instatok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C851D7EBEAD632DBA090000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instatok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1803A9E729284AAA0052DB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1803A9EF29284AAB0052DB5D /* AppDelegate.swift in Sources */,
+				18D777AF2928DC0900A7428C /* DashboardViewController.swift in Sources */,
+				1803A9F129284AAB0052DB5D /* SceneDelegate.swift in Sources */,
+				18D777AB2928CEB500A7428C /* KeychainService.swift in Sources */,
+				18D777AD2928D48200A7428C /* LoginViewController.swift in Sources */,
+				18D777B22928E17100A7428C /* AddaPostViewController.swift in Sources */,
+				18D777A92928CB0D00A7428C /* StringUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1803A9F929284AAB0052DB5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1803A9FA29284AAB0052DB5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1803A9FD29284AAB0052DB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1803A9FE29284AAB0052DB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1803AA0029284AAB0052DB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBBDF0641BFF1DC27F738DC /* Pods-instatok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR3D3UB4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instatok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LesleyGuo.instatok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1803AA0129284AAB0052DB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6795FABEF85470A61BD2DD /* Pods-instatok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR3D3UB4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instatok/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LesleyGuo.instatok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1803A9E629284AAA0052DB5D /* Build configuration list for PBXProject "instatok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803A9FD29284AAB0052DB5D /* Debug */,
+				1803A9FE29284AAB0052DB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1803A9FF29284AAB0052DB5D /* Build configuration list for PBXNativeTarget "instatok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1803AA0029284AAB0052DB5D /* Debug */,
+				1803AA0129284AAB0052DB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1803A9E329284AAA0052DB5D /* Project object */;
+}
