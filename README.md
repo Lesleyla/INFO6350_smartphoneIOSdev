@@ -7,3 +7,5 @@ week2: [FavoriteFood](https://github.com/Lesleyla/INFO6350_smartphoneIOSdev/tree
 week3: [TouristsApp](https://github.com/Lesleyla/INFO6350_smartphoneIOSdev/tree/main/TouristApp)
 
 midterm: [WeatherForecast](https://github.com/Lesleyla/INFO6350_smartphoneIOSdev/tree/main/WeatherForecast)
+
+fianl: [stockApp](https://github.com/Lesleyla/INFO6350_smartphoneIOSdev/tree/main/stockApp)
